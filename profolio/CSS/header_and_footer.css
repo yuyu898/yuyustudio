@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #171717;
+}
+a:link {
+	color: #a3a3a3;
+  	text-decoration: none;
+}
+a:visited {
+	color: #a3a3a3;
+  	text-decoration: none;
+}
+.container{
+	margin: auto;
+	width: 486px;
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	height: 68px;
+	background-color: #171717;
+	display: flex;
+	align-items: center;
+}
+.footer{
+	line-height: 46px;
+	display: grid;
+	grid-template-rows: 46px;
+	grid-template-columns: 36px auto;
+	grid-template-areas: "emal page";
+}
+.footer div{
+	font-size: 13px;
+	font-weight: 600;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #a3a3a3;
+	background-color: #171717;
+}
+.email{
+	grid-area: "email";
+}
+.page_number{
+	grid-area: "page";
+	text-align: right;
+	letter-spacing: 5px;
+}
+.page_number a{
+	cursor: pointer;
+	padding-left: 5px;
+}
+.page_number a:hover{
+	border: 1px solid red;
+}
