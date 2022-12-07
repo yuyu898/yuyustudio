@@ -1,0 +1,244 @@
+/*
+* {
+	background-color: #3A3A3A;
+}
+*/
+body {
+	background-color: #3A3A3A;
+}
+#card_wrapper {
+    width: 504px;
+    height: 288px;
+    position: absolute;
+    border-radius: 18px;
+    top: -300px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #232323;
+    margin-bottom: auto;
+}
+#card_left {
+    width: 243px;
+    height: 288px;
+    float: left;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background-color: #EDEDED;
+}
+#card_logo {
+	width: 106px;
+	height: 85px;
+	float: left;
+	margin-left: 46px;
+	margin-top: 109px;
+	background-image: url("../images/logo_light.png");
+}
+#card_center_redline {
+	float: right;
+	width: 71px;
+	height: 288px;
+	background-image: url("../images/center_redline.png");
+}
+#card_right {
+    width: 261px;
+    height: 288px;
+    float: right;
+    padding-right: 0px;
+}
+#card_name {
+	color: #EDEDED;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 33pt;
+	font-weight: lighter;
+	text-align: left;
+	margin-top: 18px;
+	margin-left: 10px;
+}
+.card_title {
+    color: #F4400A;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 8pt;
+    font-weight: normal;
+    margin-left: 16px;
+    font-style: italic;
+    line-height: 20px;
+}
+#card_PR {
+	width: 236px;
+	height: 25px;
+	margin-top: 23px;
+	margin-left: 10px;
+}
+#card_portfolio a:link {
+	width: 73px;
+	height: 25px;
+	background-color: #F4410B;
+	float: left;
+	color: #EDEDED;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 8.5pt;
+	text-align: center;
+	line-height: 26px;
+	text-decoration: none;
+	font-weight: bolder;
+}
+#card_portfolio a:hover {
+	width: 71px;
+	height: 23px;
+	color: #EDEDED;
+	background-color: #232323;
+	border: 1px solid #F4410B;
+}
+#card_portfolio a:visited {
+	color: #EDEDED;
+}
+#card_resume a:link {
+	width: 70px;
+	height: 25px;
+	background-color: #F4410B;
+	float: left;
+	color: #EDEDED;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 8.5pt;
+	text-align: center;
+	line-height: 25px;
+	text-decoration: none;
+	margin-left: 2px;
+	font-weight: bolder;
+}
+#card_resume a:hover {
+	width: 68px;
+	height: 23px;
+	color: #EDEDED;
+	background-color: #232323;
+	border: 1px solid #F4410B;
+	margin-left: 2px;
+}
+#card_resume a:visited {
+	color: #EDEDED;
+}
+#card_photography a:link {
+	width: 89px;
+	height: 25px;
+	background-color: #F4410B;
+	float: right;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 8.5pt;
+	color: #EDEDED;
+	text-align: center;
+	line-height: 25px;
+	text-decoration: none;
+	font-weight: bolder;
+}
+#card_photography a:hover {
+	width: 87px;
+	height: 23px;
+	color: #EDEDED;
+	background-color: #232323;
+	border: 1px solid #F4410B;
+}
+#card_photography a:visited {
+	color: #EDEDED;
+}
+#card_contact_1 {
+    width: 255px;
+    height: 38px;
+    margin-top: 17px;
+}
+#card_email a:link {
+    width: 96px;
+    float: left;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 9px;
+    height: 38px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-top: 0px;
+    line-height: 38px;
+    text-align: left;
+    text-indent: 3px;
+    background-image: url(../images/email_icon.gif);
+    color: #EDEDED;
+    margin-left: -10px;
+    text-decoration: none;
+}
+#card_phone {
+    width: 107px;
+    height: 38px;
+    float: right;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 9.5px;
+    background-image: url(../images/phone_icon.gif);
+    background-repeat: no-repeat;
+    padding-left: 12px;
+    padding-top: 0px;
+    line-height: 38px;
+    text-align: left;
+    text-indent: 31px;
+    color: #EDEDED;
+}
+#card_contact_2 {
+	width: 250px;
+	height: 38px;
+	margin-top: 17px;
+}
+#card_internet a:link {
+    width: 85px;
+    float: left;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 9px;
+    height: 38px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-top: 0px;
+    line-height: 38px;
+    text-align: left;
+    text-indent: 3px;
+    background-image: url(../images/internet_icon.gif);
+    color: #EDEDED;
+    margin-left: -10px;
+    text-decoration: none;
+}
+#card_internet a:visited {
+	color: #EDEDED;
+}
+#card_reflection {
+	width: 503px;
+    height: 287px;
+    clear: both;
+    background-image: url("../images/reflection_light_mode.png");
+/*    background-repeat: no-repeat;*/
+    opacity: 0.25;
+}
+/*
+#card_reflection p {
+	width: 504px;
+	height: 288px;
+	background-image: linear-gradient(
+		rgba(58,58,58,0),
+		rgba(58,58,58,.8),
+		rgba(58,58,58,1),
+		rgba(58,58,58,1));
+}*/
+
+@media (prefers-color-scheme: dark){
+	body {
+		background-color: #3A3A3A;
+	}
+	#card_logo {
+		background-image: url("../images/logo_dark.png")
+	}
+	#card_reflection {
+		background-image: url("../images/reflection_dark_mode.png");
+	}
+	#card_left {
+		background-color: rgb(247,65,15);
+	}
+	#card_center_redline {
+		background-image: url("../images/center_redline_2.png");
+	}
+}
