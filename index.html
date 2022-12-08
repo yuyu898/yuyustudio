@@ -12,9 +12,30 @@
 	<body>
 		<div id="card_wrapper">
   			<div id="card_left">
-  				<div id="card_center_redline"></div>
-				<div id="card_logo"></div>
+				<div id="card_logo">
+					<picture>
+						<source
+							srcset="images/logo_dark.png"
+							media="(prefers-color-scheme: dark)"
+						>
+						<img src="images/logo_light.png" alt="">
+					</picture>
+				</div>
   			</div>
+			
+			
+			<div id="card_middle">
+				<div id="card_center_redline">
+					<picture>
+						<source
+							srcset="images/center_redline.png"
+							media="(prefers-color-scheme: dark)"
+						>
+						<img src="images/center_redline.png" alt="">
+					</picture>
+				</div>
+			</div>
+			
   
   			<div id="card_right">
 				<div id="card_name">CLIFF WU</div>
@@ -30,13 +51,22 @@
 		  			<div id="card_phone">(626) 321-5203</div>
 	  			</div>
 	  			<div id="card_contact_2">
-		  			<div id="card_internet"><a href="https://yuyu898.github.io/yuyustudio/">yuyustudio website</a></div>
+		  			<div id="card_internet"><a href="http://yuyustudio.epizy.com/?i=1">yuyustudio website</a></div>
 	  			</div>
   			</div>
+			
   
   			<div id="card_reflection">
+				<picture>
+					<source
+						srcset="images/reflection_dark.png"
+						media="(prefers-color-scheme: dark)"
+					>
+					<img src="images/reflection_light.png" alt="">
+				</picture>
 				<p></p> <!-- gradient mask -->
 			</div>
+			
   	
   			<div id="footer">Copyright &copy; 2022 yuyustudio. All rights reserved.</div>	
 		</div>
