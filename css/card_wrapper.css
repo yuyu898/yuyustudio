@@ -67,7 +67,7 @@ body {
 	margin-top: 23px;
 	margin-left: 10px;
 }
-#card_profolio a:link {
+#card_portfolio a:link {
 	width: 73px;
 	height: 25px;
 	background-color: #F4410B;
@@ -80,14 +80,14 @@ body {
 	text-decoration: none;
 	font-weight: bolder;
 }
-#card_profolio a:hover {
+#card_portfolio a:hover {
 	width: 71px;
 	height: 23px;
 	color: #EDEDED;
 	background-color: #232323;
 	border: 1px solid #F4410B;
 }
-#card_profolio a:visited {
+#card_portfolio a:visited {
 	color: #EDEDED;
 }
 #card_resume a:link {
