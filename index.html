@@ -3,72 +3,34 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
-		<title>Cliff Wu's Portfolio Website</title>
-		<link href="css/card_wrapper.css" rel="stylesheet" type="text/css">
-		<link href="css/footer.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript" src="JS/index.js"></script>
-	</head>
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="CSS/lightbox.min.css">
+		<link rel="stylesheet" type="text/css" href="CSS/header_and_footer.css">
+		<script type="text/javascript" src="JS/lightbox-plus-jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+	</head>
 	<body>
-		<div id="card_wrapper">
-  			<div id="card_left">
-				<div id="card_logo">
-					<picture>
-						<source
-							srcset="images/logo_dark.png"
-							media="(prefers-color-scheme: dark)"
-						>
-						<img src="images/logo_light.png" alt="">
-					</picture>
-				</div>
-  			</div>
+		<div class="container">
+			<!-- Header: -->
+			<div class="header"><img src="images/logo.png" width="156" height="33" alt=""/></div>
 			
+			<!-- Gallery -->
+			<div id="gallery"></div>
 			
-			<div id="card_middle">
-				<div id="card_center_redline">
-					<picture>
-						<source
-							srcset="images/center_redline.png"
-							media="(prefers-color-scheme: dark)"
-						>
-						<img src="images/center_redline.png" alt="">
-					</picture>
+			<!-- Footer -->
+			<div class="footer">
+				<div class="email"><a href="mailto:yuyustudio@gmail.com">Email</a></div>
+				<div class="page_number">
+					<a href="#" onclick="loadGallery1()" id="buttonNumber1">1</a>
+					<a href="#" onclick="loadGallery2()" id="buttonNumber2">2</a>
+					<a href="#" onclick="loadGallery3()" id="buttonNumber3">3</a>
+					<a href="#" onclick="loadGallery4()" id="buttonNumber4">4</a>
+					<a href="#" onclick="loadGallery5()" id="buttonNumber5">5</a>
 				</div>
 			</div>
-			
-  
-  			<div id="card_right">
-				<div id="card_name">CLIFF WU</div>
-	  				<div class="card_title">Graphic & Web Designer</div>
-	  				<div class="card_title">Management Information System</div>
-	  			<div id="card_PR">
-		  			<div id="card_portfolio"><a href="portfolio/index.html" target="new">Portfolio</a></div>
-		  			<div id="card_resume"><a href="resume/resume.html" target="new">Resum</a></div>
-		  			<div id="card_photography"><a href="https://www.flickr.com/photos/yuyustudio/" target="new">Photography</a></div>
-	  			</div>
-	  			<div id="card_contact_1">
-		  			<div id="card_email"><a href="mailto:yuyustudio@gmail.com">yuyustudio@gmail.com</a></div>
-		  			<div id="card_phone">(626) 321-5203</div>
-	  			</div>
-	  			<div id="card_contact_2">
-		  			<div id="card_internet"><a href="http://yuyustudio.epizy.com/?i=1">yuyustudio website</a></div>
-	  			</div>
-  			</div>
-			
-  
-  			<div id="card_reflection">
-				<picture>
-					<source
-						srcset="images/reflection_dark.png"
-						media="(prefers-color-scheme: dark)"
-					>
-					<img src="images/reflection_light.png" alt="">
-				</picture>
-				<p></p> <!-- gradient mask -->
-			</div>
-			
-  	
-  			<div id="footer">Copyright &copy; 2024 yuyustudio. All rights reserved.</div>	
 		</div>
 	</body>
+	<script type="text/javascript" src="JS/gallery-change-bg-color.js"></script>
+	<script type="text/javascript" src="JS/gallery-change-pg.js"></script>
 </html>
