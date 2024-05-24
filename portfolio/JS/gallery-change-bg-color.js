@@ -5,7 +5,7 @@
  var divColor1 = document.getElementById("gallery1");
  img1.addEventListener("mouseover", function(){
 	 /* img1.style.borderRadius = "10%"; */
-	 img1.style.boxShadow = "5px 5px 8px 0 #000000";
+	 img1.style.boxShadow = "5px 5px 8px 0 rgba(0, 0, 0, 0.7)";
 	 divColor1.style.backgroundColor = "#4b4b4b";
  })
  img1.addEventListener("mouseout", function(){
@@ -19,7 +19,7 @@
  var divColor2 = document.getElementById("gallery2");
  img2.addEventListener("mouseover", function(){
 	 /* img2.style.borderRadius = "10%"; */
-	 img2.style.boxShadow = "5px 5px 8px 0 #000000";
+	 img2.style.boxShadow = "5px 5px 8px 0 rgba(0, 0, 0, 0.7)";
 	 divColor2.style.backgroundColor = "#4b4b4b";
  })
  img2.addEventListener("mouseout", function(){
@@ -33,7 +33,7 @@
  var divColor3 = document.getElementById("gallery3");
  img3.addEventListener("mouseover", function(){
 	 /* img3.style.borderRadius = "10%"; */
-	 img3.style.boxShadow = "5px 5px 8px 0 #000000";
+	 img3.style.boxShadow = "5px 5px 8px 0 rgba(0, 0, 0, 0.7)";
 	 divColor3.style.backgroundColor = "#4b4b4b";
  })
  img3.addEventListener("mouseout", function(){
@@ -47,7 +47,7 @@
  var divColor4 = document.getElementById("gallery4");
  img4.addEventListener("mouseover", function(){
 	 /* img4.style.borderRadius = "10%"; */
-	 img4.style.boxShadow = "5px 5px 8px 0 #000000";
+	 img4.style.boxShadow = "5px 5px 8px 0 rgba(0, 0, 0, 0.7)";
 	 divColor4.style.backgroundColor = "#4b4b4b";
  })
  img4.addEventListener("mouseout", function(){
@@ -61,7 +61,7 @@
  var divColor5 = document.getElementById("gallery5");
  img5.addEventListener("mouseover", function(){
 	 /* img5.style.borderRadius = "10%"; */
-	 img5.style.boxShadow = "5px 5px 8px 0 #000000";
+	 img5.style.boxShadow = "5px 5px 8px 0 rgba(0, 0, 0, 0.7)";
 	 divColor5.style.backgroundColor = "#4b4b4b";
  })
  img5.addEventListener("mouseout", function(){
@@ -75,7 +75,7 @@
  var divColor6 = document.getElementById("gallery6");
  img6.addEventListener("mouseover", function(){
 	 /* img6.style.borderRadius = "10%"; */
-	 img6.style.boxShadow = "5px 5px 8px 0 #000000";
+	 img6.style.boxShadow = "5px 5px 8px 0 rgba(0, 0, 0, 0.7)";
 	 divColor6.style.backgroundColor = "#4b4b4b";
  })
  img6.addEventListener("mouseout", function(){
@@ -89,7 +89,7 @@
   var divColor7 = document.getElementById("gallery7");
   img7.addEventListener("mouseover", function(){
 	  /* img7.style.borderRadius = "10%"; */
-	  img7.style.boxShadow = "5px 5px 8px 0 #000000";
+	  img7.style.boxShadow = "5px 5px 8px 0 rgba(0, 0, 0, 0.7)";
 	  divColor7.style.backgroundColor = "#4b4b4b";
   })
   img7.addEventListener("mouseout", function(){
@@ -103,7 +103,7 @@
   var divColor8 = document.getElementById("gallery8");
   img8.addEventListener("mouseover", function(){
 	  /* img8.style.borderRadius = "10%"; */
-	  img8.style.boxShadow = "5px 5px 8px 0 #000000";
+	  img8.style.boxShadow = "5px 5px 8px 0 rgba(0, 0, 0, 0.7)";
 	  divColor8.style.backgroundColor = "#4b4b4b";
   })
   img8.addEventListener("mouseout", function(){
@@ -117,7 +117,7 @@
   var divColor9 = document.getElementById("gallery9");
   img9.addEventListener("mouseover", function(){
 	  /* img9.style.borderRadius = "10%"; */
-	  img9.style.boxShadow = "5px 5px 8px 0 #000000";
+	  img9.style.boxShadow = "5px 5px 8px 0 rgba(0, 0, 0, 0.7)";
 	  divColor9.style.backgroundColor = "#4b4b4b";
   })
   img9.addEventListener("mouseout", function(){
@@ -131,7 +131,7 @@
   var divColor10 = document.getElementById("gallery10");
   img10.addEventListener("mouseover", function(){
 	  /* img10.style.borderRadius = "10%"; */
-	  img10.style.boxShadow = "5px 5px 8px 0 #000000";
+	  img10.style.boxShadow = "5px 5px 8px 0 rgba(0, 0, 0, 0.7)";
 	  divColor10.style.backgroundColor = "#4b4b4b";
   })
   img10.addEventListener("mouseout", function(){
@@ -145,7 +145,7 @@
   var divColor11 = document.getElementById("gallery11");
   img11.addEventListener("mouseover", function(){
 	  /* img11.style.borderRadius = "10%"; */
-	  img11.style.boxShadow = "5px 5px 8px 0 #000000";
+	  img11.style.boxShadow = "5px 5px 8px 0 rgba(0, 0, 0, 0.7)";
 	  divColor11.style.backgroundColor = "#4b4b4b";
   })
   img11.addEventListener("mouseout", function(){
@@ -159,7 +159,7 @@
   var divColor12 = document.getElementById("gallery12");
   img12.addEventListener("mouseover", function(){
 	  /* img12.style.borderRadius = "10%"; */
-	  img12.style.boxShadow = "5px 5px 8px 0 #000000";
+	  img12.style.boxShadow = "5px 5px 8px 0 rgba(0, 0, 0, 0.7)";
 	  divColor12.style.backgroundColor = "#4b4b4b";
   })
   img12.addEventListener("mouseout", function(){
