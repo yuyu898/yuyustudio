@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Comparison Slider</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<!-- Header: -->
+		<div class="header"><img src="../../images/logo.png" width="156" height="33" alt=""/></div>
+	
+		<!-- Content: -->
+		<div id="image-comparison-slider">
+  			<img src="./images/before.jpg" alt="before">
+  			<div class="img-wrapper">
+    			<img src="./images/after.jpg" alt="after">
+  			</div>
+  			<span class="label label-before">Before</span>
+  			<span class="label label-after">After</span>
+  			<div class="handle">
+    			<div class="handle-line"></div>
+    			<div class="handle-circle">
+      				<i class="fa-solid fa-chevron-left"></i>
+      				<i class="fa-solid fa-chevron-right"></i>
+    			</div>
+    			<div class="handle-line"></div>
+  			</div>
+		</div>
+		
+		<!-- Footer: -->
+		<div class="footer">Before & After Comparison : <span style="color: rgb(255, 0, 0)">Eyes Retouching</span></div>
+	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
