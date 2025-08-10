@@ -67,7 +67,18 @@
 			</div>
 			
   	
-  			<div id="footer">Copyright &copy; 2024 yuyustudio. All rights reserved.</div>	
+  			<div id="footer">Copyright &copy; <span id="currentYear"></span> yuyustudio. All Rights Reserved.
+			<script>
+			  // Get the element where the year will be displayed
+  			  const yearSpan = document.getElementById('currentYear');
+
+  			 // Get the current year using JavaScript's Date object
+  			 const currentYear = new Date().getFullYear();
+
+  			// Set the text content of the span to the current year
+            yearSpan.textContent = currentYear;
+			</script>
+			</div>	
 		</div>
 	</body>
 </html>
